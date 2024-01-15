@@ -891,7 +891,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	color: #FFF;
 }
 .tt-logo img {
-	max-height: 80px; /* You may need to change the img height to match your logo type! */
+	max-height: 90px; /* You may need to change the img height to match your logo type! */
 }
 
 .tt-logo-dark{
@@ -3587,7 +3587,7 @@ video.pgi-video {
 	font-size: clamp(28px, 4vw, 64px);
 	font-weight: bold;
 	font-weight: 200;
-	color: #FFF;
+	color: #000;
 	line-height: 1.5;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -3626,7 +3626,7 @@ video.pgi-video {
 	position: relative;
 	display: inline-block;
 	font-size: calc(13px + 0.1vw);
-	color: #FFF;
+	color: #000;
 	opacity: .6;
 }
 .pgi-category ~ .pgi-category {
