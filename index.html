@@ -40,6 +40,7 @@
 		<!--  master CSS -->
 		<link rel="stylesheet" href="assets/css/helper.css">
         <link id="tt-themecss" rel="stylesheet" href="assets/css/theme.css">
+		<link id="tt-themecss" rel="stylesheet" href="assets/css/home.css">
 
 
 		<!--  font awsome -->
@@ -48,6 +49,11 @@
 
 		<!--  font family gd-sage -->
 		<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+		<link href="https://fonts.cdnfonts.com/css/marcellus-sc" rel="stylesheet">
+
+
+		<!--  bootstrap -->
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 
 
 
@@ -111,11 +117,13 @@
 							<div class="tt-logo"> 
 								<a href="index.html">
 									<!-- Hint: You may need to change the img height to match your logo type. You can do this from the "theme.css" file (find: ".tt-logo img"). -->
-									<img src="assets/img/logo-dark.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
-									<img src="assets/img/logo-dark.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
+									<img src="assets/img/logo.png" class="tt-logo-light magnetic-item" alt="Logo"> <!-- logo light -->
+									<img src="assets/img/logo.png" class="tt-logo-dark magnetic-item" alt="Logo"> <!-- logo dark -->
 								</a>
 							</div>
 							<!-- End logo -->
+
+							
 
 						</div> <!-- /.tt-header-col -->
 
@@ -138,6 +146,7 @@
 							* Use class "tt-submenu-dark" to enable submenu dark style.
 							* Use class "tt-m-menu-center" to align mobile menu to center (no effect on desktop!).
 							-->
+							
 							<nav class="tt-main-menu tt-submenu-dark">
 								<div class="tt-main-menu-holder">
 									<div class="tt-main-menu-inner">
@@ -148,95 +157,11 @@
 
 												<li class="active" ><a href="index.html">Home</a></li>
 
-												<!-- Begin submenu (submenu master)
-												==================================== -->
-												<li class="tt-submenu-wrap tt-submenu-master active">
-													<div class="tt-submenu-trigger">
-														<!-- <a href="web.html">Products & Services</a> -->
-													</div> <!-- /.tt-submenu-trigger -->
-													<div class="tt-submenu">
-														<ul class="tt-submenu-list">
-
-															<!-- Begin submenu
-															=================== -->
-															<li class="tt-submenu-wrap">
-																<div class="tt-submenu-trigger">
-																	<a href="web.html">Website</a>
-																</div> <!-- /.tt-submenu-trigger -->
-																<!-- <div class="tt-submenu">
-																	<ul class="tt-submenu-list">
-
-																		<li><a href="portfolio-list.html">Domain</a></li>
-																		<li><a href="portfolio-list-alter.html">Hosting</a></li>
-																		<li><a href="portfolio-list-thumb.html">Profossional Email</a></li>
-																		<li><a href="portfolio-list-thumb.html">Website Templates</a></li>
-																		<li><a href="portfolio-list-thumb.html">Fully customized website</a></li>
-																		
-																	</ul> 
-																</div>  -->
-															</li>
-															<!-- End submenu -->
-
-															<!-- Begin submenu
-															=================== -->
-															<li class="tt-submenu-wrap">
-																<div class="tt-submenu-trigger">
-																	<a href="design.html">Design</a>
-																</div> <!-- /.tt-submenu-trigger -->
-																<!-- <div class="tt-submenu">
-																	<ul class="tt-submenu-list">
-
-																		<li><a href="portfolio-grid-creative.html">Grid Creative</a></li>
-																		<li><a href="portfolio-grid-modern.html">Grid Modern</a></li>
-																		<li><a href="portfolio-grid-portrait-mode.html">Grid Portrait Mode</a></li>
-																		<li><a href="portfolio-grid-classic.html">Grid Classic</a></li>
-																		
-																	</ul>
-																</div> -->
-															</li>
-															<!-- End submenu -->
-
-															<!-- Begin submenu
-															=================== -->
-															<li class="tt-submenu-wrap">
-																<div class="tt-submenu-trigger">
-																	<a href="marketing.html">Marketing</a>
-																</div> <!-- /.tt-submenu-trigger -->
-																<!-- <div class="tt-submenu">
-																	<ul class="tt-submenu-list">
-
-																		<li><a href="portfolio-interactive.html">Interactive Classic</a></li>
-																		<li><a href="portfolio-interactive-center.html">Interactive Senter</a></li>
-																		<li><a href="portfolio-interactive-inline.html">Interactive Inline</a></li>
-																		
-																	</ul>
-																</div>  -->
-															</li>
-															<!-- End submenu -->
-
-															<!-- Begin submenu
-															=================== -->
-															
-															<!-- End submenu -->
-
-
-														</ul> <!-- /.tt-submenu-list -->
-													</div> <!-- /.tt-submenu -->
-												</li>
-												<!-- End submenu (sub-master) -->
-
-												<!-- Begin submenu (submenu master)
-												==================================== -->
-												<!-- <li class="tt-submenu-wrap tt-submenu-master">
-													<a href="resources.html">Resources</a>
-													
-												</li> -->
-												<!-- End submenu (sub-master) -->
 
 												<!-- Begin submenu (submenu master)
 												==================================== -->
 												<li class="tt-submenu-wrap tt-submenu-master">
-													<a href="community.html">services</a>
+													<a href="community.html">About</a>
 													
 												</li>
 												<!-- End submenu (sub-master) -->
@@ -244,7 +169,7 @@
 												<!-- Begin submenu (submenu master)
 												==================================== -->
 												<li class="tt-submenu-wrap tt-submenu-master">
-													<a href="#">Blog</a>
+													<a href="#">Departments</a>
 												</li>
 												<!-- End submenu (sub-master) -->
 
@@ -282,11 +207,85 @@
 
 
 
+				<!-- *************************************
+					*********** Begin page content *********** 
+					************************************** -->
+
+					<div id="page-content">
+
+						<!-- =======================
+						///// Begin tt-section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+
+
+						<!--Content before waves-->
+						<div class="inner-header flex">
+							<div class="header-content">
+
+								
+									<div class="header-text-content">
+										<p class="header-suptitle">Top-rated dental clinic in Oman</p>
+										<h1 class="header-title">Keep your smile clean & bright.</h1>
+
+										<p class="header-para">A confident smile is a superpower. It opens doors, lands deals, and ignites connections. But a smile marred by imperfections can hold you back. Don't let chipped teeth or misaligned bites dim your inner glow. We'll sculpt the smile that embodies your confidence and lets you conquer the world, one dazzling grin at a time.</p>
+
+										<div></div>
+									</div>
+									<div class="header-text-content">
+										<img class="hero-img" src="assets/img/hero-img.jpg"/>
+									</div>
+
+					
+
+							</div>
+						</div>
+
+
+						<!--Waves Container-->
+						<div>
+							<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+							viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+							<defs>
+							<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+							</defs>
+							<g class="parallax">
+							<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,215,100,0.7" />
+							<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,215,100,0.5)" />
+							<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,215,100,0.3)" />
+							<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+							</g>
+							</svg>
+						</div>
+							<!--Waves end-->
+
+
+
+								<!-- =======================
+						///// Begin department section /////
+						============================ 
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+
+						<div class="department-card-list">
+
+							<h1 class="department-head">Our Doctors</h1>
+
+						</div>
+
+
+					</div>
 
 
 				<!-- ====================
 		///// Scripts below /////
 		===================== -->
+
+		<!-- bootstrap -->
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+
 
 		<!-- Core JS -->
 		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
@@ -307,6 +306,8 @@
 		
 		<!--  master JS -->
 		<script src="assets/js/theme.js"></script>
+
+
 
 
     </body>

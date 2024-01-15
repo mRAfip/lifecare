@@ -79,7 +79,7 @@
 /* ------------------------------------------------------------- */
 
 :root {
-	--tt-main-bg-color: rgb(255, 194, 72); /*  background color. */
+	--tt-main-bg-color: #F3EAD7; /*  background color. */
 	--tt-main-color: #C5983C; /*  main color. */
 }
 
@@ -869,6 +869,7 @@ body:not(.tt-boxed) .tt-header-inner,
 .tt-header-col {
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
 }
 .tt-header-col:first-child {
 	margin-right: auto;
@@ -890,7 +891,7 @@ body:not(.tt-boxed) .tt-header-inner,
 	color: #FFF;
 }
 .tt-logo img {
-	max-height: 48px; /* You may need to change the img height to match your logo type! */
+	max-height: 80px; /* You may need to change the img height to match your logo type! */
 }
 
 .tt-logo-dark{
@@ -915,6 +916,7 @@ body:not(.tt-boxed) .tt-header-inner,
 @media (min-width: 1025px) {
 	.tt-main-menu {
 		pointer-events: initial;
+		
 	}
 	.tt-main-menu-list {
 		margin: 0;
@@ -1328,7 +1330,7 @@ body:not(.tt-boxed) .tt-header-inner,
 		content: '';
 		height: 2px;
 		width: 24px;
-		background-color: #FFF;
+		background-color: #000;
 		transition: all 0.3s ease-in-out;
 	}
 	.tt-m-menu-toggle-btn span::before {
@@ -1348,7 +1350,7 @@ body:not(.tt-boxed) .tt-header-inner,
 		overflow: hidden;
 		text-align: right;
 		font-size: 16px;
-		color: #FFF;
+		color: #000;
 	}
 	body.tt-m-menu-open .tt-m-menu-toggle-btn-text .tt-m-menu-text-menu {
 		display: none;
