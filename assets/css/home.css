@@ -9,16 +9,17 @@
 
 
 
-.inner-header{
+@media only screen and (min-device-width: 1200px){
 
-  
 
-}
+
+    
 .header-content{
     padding-top: 10%;
     display: flex;
     justify-content: space-between;
-    padding-left: 15%;
+    padding-left: 15% !important;
+    
     background-image: url("../img/hero-back.jpg");
 }
 
@@ -187,6 +188,10 @@
    
 }
 
+
+}
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
 
@@ -257,10 +262,9 @@
 
 
     .header-content{
-        padding-top: 15%;
         display: flex;
         justify-content: space-between;
-        padding-left: 5%;
+        
     }
     
     .header-text-content{
@@ -318,14 +322,16 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
 
     
     .header-content{
-        padding-top: 15%;
+        padding-top: 25%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        padding-left: 5% !important; 
+        
         
     
     }
@@ -351,7 +357,7 @@
     }
     .header-title{
         color: #004225 !important;
-        font-size: calc(15px + 8.5vw) !important;
+        font-size: calc(12px + 7.5vw) !important;
         font-weight: 900;
         text-align: center;
         
@@ -377,15 +383,57 @@
     
     .hero-img{
     
-        width: 60%;
-        height: 60%;
+        width: 90%;
+        height: 380px !important;
         object-fit: cover;
-        border-radius: 100px;
+        border-radius: 20px;
+        margin-top: 3%;
         
     }
     .header-title{
         color: black;
     }
+
+
+     
+.booknow-section{
+
+    width: 100%;
+    padding: 4% 4%;
+}
+
+.card-book-callback{
+
+    background-image: url('../img//gold-bg.jpg');
+    padding: 4% 1%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    align-items: center; /* Vertically centers child elements */
+}
+
+
+.book-call-back-text{
+
+    width: 85%;
+    text-align: center;
+  
+    
+}
+.btn-callback{
+
+    background-color: #fff;
+    color: #000;
+    padding: 2% 5%;
+    border-radius: 10px;
+}
+
+.btn-callback:hover{
+
+    background-color: #000;
+    color: #fff;
+   
+}
     
     
 }
