@@ -11,7 +11,7 @@
 
 .inner-header{
 
-    background-image: url("../img/hero-back.jpg");
+  
 
 }
 .header-content{
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 15%;
+    background-image: url("../img/hero-back.jpg");
 }
 
 .header-text-content{
@@ -37,7 +38,7 @@
 .header-title{
     color: #004225 !important;
     font-size: calc(5px + 3.5vw) !important;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: -3%;
     
 }
@@ -138,6 +139,53 @@
     
   }
 
+  .daprtment-div{
+
+    padding-top: 0 30%;
+
+  }
+
+
+  /* call section */
+
+  
+.booknow-section{
+
+    width: 100%;
+    padding: 4% 20%;
+}
+
+.card-book-callback{
+
+    background-image: url('../img//gold-bg.jpg');
+    padding: 6% 10%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    align-items: center; /* Vertically centers child elements */
+}
+
+
+.book-call-back-text{
+
+    width: 55%;
+  
+    
+}
+.btn-callback{
+
+    background-color: #fff;
+    color: #000;
+    padding: 2% 5%;
+    border-radius: 10px;
+}
+
+.btn-callback:hover{
+
+    background-color: #000;
+    color: #fff;
+   
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
@@ -153,6 +201,72 @@
     
         
        
+    }
+    
+    .header-suptitle{
+    
+        color: #000;
+        margin-bottom: -1%;
+        margin-top: 15%;
+       
+    }
+    .header-title{
+        color: #004225 !important;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-top: -3%;
+    
+    }
+    
+    .header-para{
+    
+        color: #000;
+        margin-top: -3%;
+    }
+    
+    
+    .header-text-content{
+    
+        width: 45%;
+    }
+    
+    .header-img-content{
+    
+        margin-top: -20%;
+    }
+    
+    .hero-img{
+    
+        width: 150%;
+        height: 130%;
+        object-fit: cover;
+        border-radius: 0 0 500px 500px;
+        margin-top: -40%;
+        
+    }
+    .header-title{
+        color: black;
+    }
+    
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px ) {
+
+
+    .header-content{
+        padding-top: 15%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+    }
+    
+    .header-text-content{
+    
+        
+        
     }
     
     .header-suptitle{
@@ -200,21 +314,6 @@
         color: black;
     }
     
-
-    
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 768px) and (max-width:991px ) {
-
-    
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: ) {
-
-    
 }
 
 
@@ -225,9 +324,9 @@
     .header-content{
         padding-top: 15%;
         display: flex;
-        justify-content: space-between;
-        padding-left: 5%;
+        justify-content: center;
         flex-direction: column;
+        
     
     }
 
@@ -235,8 +334,7 @@
     .header-content{
         padding-top: 10%;
         display: flex;
-        justify-content: space-between;
-        padding-left: 15%;
+        justify-content: center;
     }
     
     .header-text-content{
@@ -248,14 +346,13 @@
     .header-suptitle{
     
         color: #000;
-
         margin-top: 15%;
         text-align: center;
     }
     .header-title{
         color: #004225 !important;
         font-size: calc(15px + 8.5vw) !important;
-        font-weight: 700;
+        font-weight: 900;
         text-align: center;
         
     }
@@ -275,16 +372,15 @@
     
     .header-img-content{
     
-        margin-top: -30%;
+        margin-top: 0%;
     }
     
     .hero-img{
     
-        width: 150%;
-        height: 110%;
+        width: 60%;
+        height: 60%;
         object-fit: cover;
-        border-radius: 0 0 500px 500px;
-        margin-top: -30%;
+        border-radius: 100px;
         
     }
     .header-title{
