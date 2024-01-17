@@ -838,6 +838,18 @@
     color: #000;
 
 }
+
+
+#appointment-form{
+
+    color: #000;
+}
+
+
+#tt-footer{
+
+    background-color: var(--tt-main-color) !important;
+}
     
 }
 
