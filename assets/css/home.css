@@ -1,7 +1,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/marcellus');
 :root {
-	--tt-main-bg-color: #fff;   /*  background color. */
+	--tt-main-bg-color: #fcf3df;   /*  background color. */
     --tt-main-bg-gold: #fcf3df; /*  background gold. */
 	--tt-main-color: #C5983C; /*  main color. */
 }
@@ -16,11 +16,18 @@
     
 .header-content{
     padding-top: 10%;
+    padding-bottom: 12%;
     display: flex;
     justify-content: space-between;
-    padding-left: 15% !important;
-    
+    padding-left: 15% !important;  
     background-image: url("../img/hero-back.jpg");
+}
+
+.tt-main-menu-list > li > a,
+.tt-main-menu-list > li > .tt-submenu-trigger > a {
+
+    color: #fff !important;
+   
 }
 
 .header-text-content{
@@ -31,17 +38,27 @@
 
 .header-suptitle{
 
-    color: #000;
-    margin-bottom: -1%;
+    color: #fff;
+    margin-bottom: 1%;
     margin-top: 15%;
    
 }
 .header-title{
-    color: #004225 !important;
-    font-size: calc(5px + 3.5vw) !important;
-    font-weight: 900;
-    margin-top: -3%;
-    
+   
+    font-size: calc(4px + 2.5vw) !important;
+    font-weight: 800;
+    margin-top: -2%;
+    color: #fff !important;
+
+
+} 
+
+.btn-header{
+
+    border: solid 1px #fff;
+    border-radius: 10px;
+    padding: 2% 5%;
+    width: fit-content;
 }
 
 .header-para{
@@ -56,20 +73,7 @@
     width: 40%;
 }
 
-.header-img-content{
 
-    margin-top: -30%;
-}
-
-.hero-img{
-
-    width: 150%;
-    height: 110%;
-    object-fit: cover;
-    border-radius: 0 0 500px 500px;
-    margin-top: -30%;
-    
-}
 .header-title{
     color: black;
 }
@@ -84,7 +88,7 @@
     max-height:150px;
     margin-top: -50%;
     
-  }
+}
   
   /* Animation */
 
@@ -325,22 +329,21 @@
 @media only screen and (max-width: 767px){
 
     
-    .header-content{
-        padding-top: 25%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding-left: 5% !important; 
-        
-        
     
-    }
-
-
     .header-content{
-        padding-top: 10%;
+        padding-top: 20%;
+        padding-bottom: 12%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        padding-left: 10% !important;  
+        background-image: url("../img/hero-back-mobile.png");
+    }
+    
+    .tt-main-menu-list > li > a,
+    .tt-main-menu-list > li > .tt-submenu-trigger > a {
+    
+        color: #fff !important;
+       
     }
     
     .header-text-content{
@@ -351,16 +354,28 @@
     
     .header-suptitle{
     
-        color: #000;
+        color: #fff;
+        margin-bottom: 1%;
         margin-top: 15%;
-        text-align: center;
+        width: 100%;
+       
     }
     .header-title{
-        color: #004225 !important;
-        font-size: calc(12px + 7.5vw) !important;
-        font-weight: 900;
-        text-align: center;
-        
+       
+        font-size: calc(8px + 5.5vw) !important;
+        font-weight: 800;
+        margin-top: -2%;
+        color: #fff !important;
+    
+    
+    } 
+    
+    .btn-header{
+    
+        border: solid 1px #fff;
+        border-radius: 10px;
+        padding: 2% 5%;
+        width: fit-content;
     }
     
     .header-para{
@@ -373,27 +388,26 @@
     .header-text-content{
     
         width: 100%;
-        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
     }
     
-    .header-img-content{
     
-        margin-top: 0%;
-    }
-    
-    .hero-img{
-    
-        width: 90%;
-        height: 380px !important;
-        object-fit: cover;
-        border-radius: 20px;
-        margin-top: 3%;
-        
-    }
     .header-title{
         color: black;
     }
-
+    
+    
+    .waves {
+        position:relative;
+        width: 100%;
+        height:15vh;
+        margin-bottom:-7px; /*Fix for safari gap*/
+        min-height:100px;
+        max-height:150px;
+        margin-top: -50%;
+        
+    }
 
      
 .booknow-section{
@@ -417,6 +431,7 @@
 
     width: 85%;
     text-align: center;
+    font-size: calc(4px + 4.5vw) !important;
   
     
 }
