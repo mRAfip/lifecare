@@ -9,6 +9,7 @@
 
 
 
+
 @media only screen and (min-device-width: 1200px){
 
 
@@ -21,6 +22,7 @@
     justify-content: space-between;
     padding-left: 15% !important;  
     background-image: url("../img/hero-back.jpg");
+    background-size: cover;
 }
 
 .tt-main-menu-list > li > a,
@@ -157,7 +159,8 @@
 .booknow-section{
 
     width: 100%;
-    padding: 4% 20%;
+    padding: 1% 20%;
+    margin-bottom: 5%;
 }
 
 .card-book-callback{
@@ -193,17 +196,157 @@
 }
 
 
+/* about section */
+
+
+.about-section{
+
+    display: flex;
+    color: #000 !important;
+    padding: 2% 20%;
+    padding-top: 2%;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
 }
+
+.about-text-content{
+
+    width: 100%;
+    padding-top: 8%;
+    
+}
+.about-title{
+
+    font-size: calc(3px + 2.2vw) !important;
+    font-weight: 700;
+
+}
+
+.about-img-content{
+
+    padding-top: 8%;
+   
+}
+
+.about-img{
+
+
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+
+    
+}
+
+
+
+
+
+/* dosctor list */
+
+
+
+.doctor_list_section{
+
+
+    width: 100%;
+    padding: 6% 20%;
+    background-color: #F0E3CB;
+    color: #000;
+
+}
+
+.services-para{
+
+    margin-top: -2%;
+}
+
+.card{
+
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    background-color: #fff;
+    padding: 1% 1%;
+    
+    text-align: center;
+
+}
+
+.card-header-img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+.card-title{
+
+    color: #000;
+    text-align: center;
+
+    padding: 3% 10%;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+   
+    
+}
+
+
+/* newsletter */
+
+
+#appointment-form{
+
+    color: #000;
+}
+
+
+.doctor_list_section_2{
+
+
+    width: 100%;
+    padding: 6% 20%;
+    background-color: #fff;
+    color: #000;
+
+}
+
+#tt-footer{
+
+    background-color: var(--tt-main-color) !important;
+}
+
+}
+
+
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
 
+    
+
     .header-content{
-        padding-top: 15%;
+        padding-top: 10%;
+        padding-bottom: 12%;
         display: flex;
         justify-content: space-between;
-        padding-left: 5%;
+        padding-left: 15% !important;  
+        background-image: url("../img/hero-back.jpg");
+    }
+    
+    .tt-main-menu-list > li > a,
+    .tt-main-menu-list > li > .tt-submenu-trigger > a {
+    
+        color: #fff !important;
+       
     }
     
     .header-text-content{
@@ -214,17 +357,27 @@
     
     .header-suptitle{
     
-        color: #000;
-        margin-bottom: -1%;
+        color: #fff;
+        margin-bottom: 1%;
         margin-top: 15%;
        
     }
     .header-title{
-        color: #004225 !important;
-        font-size: 3rem;
-        font-weight: 900;
-        margin-top: -3%;
+       
+        font-size: calc(6px + 3.5vw) !important;
+        font-weight: 800;
+        margin-top: -2%;
+        color: #fff !important;
     
+    
+    } 
+    
+    .btn-header{
+    
+        border: solid 1px #fff;
+        border-radius: 10px;
+        padding: 2% 5%;
+        width: fit-content;
     }
     
     .header-para{
@@ -236,26 +389,57 @@
     
     .header-text-content{
     
-        width: 45%;
+        width: 60%;
     }
     
-    .header-img-content{
     
-        margin-top: -20%;
-    }
-    
-    .hero-img{
-    
-        width: 150%;
-        height: 130%;
-        object-fit: cover;
-        border-radius: 0 0 500px 500px;
-        margin-top: -40%;
-        
-    }
     .header-title{
         color: black;
     }
+    
+    
+    .waves {
+        position:relative;
+        width: 100%;
+        height:15vh;
+        margin-bottom:-7px; /*Fix for safari gap*/
+        min-height:100px;
+        max-height:150px;
+        margin-top: -50%;
+        
+    }
+      
+      /* Animation */
+    
+    .parallax > use {
+        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+      }
+      .parallax > use:nth-child(1) {
+        animation-delay: -2s;
+        animation-duration: 7s;
+      }
+      .parallax > use:nth-child(2) {
+        animation-delay: -3s;
+        animation-duration: 10s;
+      }
+      .parallax > use:nth-child(3) {
+        animation-delay: -4s;
+        animation-duration: 13s;
+      }
+      .parallax > use:nth-child(4) {
+        animation-delay: -5s;
+        animation-duration: 20s;
+      }
+      @keyframes move-forever {
+        0% {
+         transform: translate3d(-90px,0,0);
+        }
+        100% { 
+          transform: translate3d(85px,0,0);
+        }
+      }
+    
+    
     
 
     
@@ -265,31 +449,53 @@
 @media only screen and (min-width: 768px) and (max-width:991px ) {
 
 
+
     .header-content{
+        padding-top: 10%;
+        padding-bottom: 12%;
         display: flex;
         justify-content: space-between;
-        
+        padding-left: 15% !important;  
+        background-image: url("../img/hero-back-tab.png");
+        background-size: cover;
+    }
+    
+    .tt-main-menu-list > li > a,
+    .tt-main-menu-list > li > .tt-submenu-trigger > a {
+    
+        color: #fff !important;
+       
     }
     
     .header-text-content{
     
         
-        
+       
     }
     
     .header-suptitle{
     
-        color: #000;
-        margin-bottom: -1%;
+        color: #fff;
+        margin-bottom: 1%;
         margin-top: 15%;
        
     }
     .header-title{
-        color: #004225 !important;
-        font-size: 3rem;
-        font-weight: 900;
-        margin-top: -3%;
+       
+        font-size: calc(6px + 4.5vw) !important;
+        font-weight: 800;
+        margin-top: -2%;
+        color: #fff !important;
     
+    
+    } 
+    
+    .btn-header{
+    
+        border: solid 1px #fff;
+        border-radius: 10px;
+        padding: 2% 5%;
+        width: fit-content;
     }
     
     .header-para{
@@ -301,32 +507,71 @@
     
     .header-text-content{
     
-        width: 40%;
+        width: 60%;
     }
     
-    .header-img-content{
     
-        margin-top: -30%;
-    }
-    
-    .hero-img{
-    
-        width: 150%;
-        height: 120%;
-        object-fit: cover;
-        border-radius: 0 0 500px 500px;
-        margin-top: -40%;
-        
-    }
     .header-title{
         color: black;
     }
+    
+    
+    .waves {
+        position:relative;
+        width: 100%;
+        height:15vh;
+        margin-bottom:-7px; /*Fix for safari gap*/
+        min-height:100px;
+        max-height:150px;
+        margin-top: -50%;
+        
+    }
+      
+      /* Animation */
+    
+    .parallax > use {
+        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+      }
+      .parallax > use:nth-child(1) {
+        animation-delay: -2s;
+        animation-duration: 7s;
+      }
+      .parallax > use:nth-child(2) {
+        animation-delay: -3s;
+        animation-duration: 10s;
+      }
+      .parallax > use:nth-child(3) {
+        animation-delay: -4s;
+        animation-duration: 13s;
+      }
+      .parallax > use:nth-child(4) {
+        animation-delay: -5s;
+        animation-duration: 20s;
+      }
+      @keyframes move-forever {
+        0% {
+         transform: translate3d(-90px,0,0);
+        }
+        100% { 
+          transform: translate3d(85px,0,0);
+        }
+      }
+    
+    
     
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px){
+
+
+
+
+    .tt-m-menu-toggle-btn-text {
+		
+		color: #fff !important;
+	}
 
     
     
@@ -335,7 +580,7 @@
         padding-bottom: 12%;
         display: flex;
         justify-content: space-between;
-        padding-left: 10% !important;  
+        padding-left:  6% !important;  
         background-image: url("../img/hero-back-mobile.png");
     }
     
@@ -409,11 +654,41 @@
         
     }
 
+    /* Animation */
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  }
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
+
      
 .booknow-section{
 
     width: 100%;
-    padding: 4% 4%;
+    padding: 4% 6%;
 }
 
 .card-book-callback{
@@ -449,7 +724,111 @@
     color: #fff;
    
 }
+
+
+/* about section */
     
+
+.about-section{
+
+    display: flex;
+    color: #000 !important;
+    padding: 2% 6%;
+    padding-top: 2%;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+
+.about-text-content{
+
+    width: 100%;
+    padding-top: 8%;
+    
+}
+.about-title{
+
+    font-size: calc(6px + 6vw) !important;
+    font-weight: 700;
+
+}
+
+.about-para{
+
+    
+}
+.about-img-content{
+
+    padding-top: 8%;
+   
+}
+
+.about-img{
+
+
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+
+    
+}
+
+
+/* service  */
+
+
+
+.doctor_list_section{
+
+
+    padding: 8% 6%;
+    background-color: #F0E3CB;
+    color: #000;
+
+}
+
+
+.services-para{
+
+    margin-top: -3%;
+}
+
+.card{
+
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    background-color: #fff;
+    padding: 1% 1%;
+    
+    text-align: center;
+
+}
+
+.card-header-img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+.card-title{
+
+    color: #000;
+    text-align: center;
+    padding: 3% 10%;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    font-size: calc(3px + 3.5vw) !important;
+   
+    
+}
     
 }
 
