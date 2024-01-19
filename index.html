@@ -283,12 +283,41 @@
 
 							<a>About us</a>
 							<h1 class="about-title">Exceptional Care in the Heart of the Maldives</h1>
-							<p class="about-para">Welcome to Life Care Medical Center, where we focus on keeping you healthy and happy. We're one of the best medical centers in the Maldives, and we're here to make sure you get the best care possible. Our clinic has top-notch doctors, modern facilities, and different departments to take care of all your health needs. At Life Care, we're not just about fixing problems – we're here to help you stay well. Our caring team is ready to support you on your journey to better health. Trust us for easy, friendly, and excellent healthcare bause, at Life Care, your health always comes first.</p>
+							<p class="about-para">Our reputation for outstanding care and family-like atmosphere, together with advanced dental and medical care ensures we attract leading consultants and specialists from the industry to work with us. All our clinicians are board-certified and come with very high credentials within their field of speciality. our consultants comply with Clinical Governance system that ensures adequate patient care and We are committed to providing high quality, cost-efficient healthcare for Every Generation.</p>
 
 						</div>
 						<div class="about-img-content">
 
-							<img class="about-img" src="assets/img/about-img.png"/>
+							<div class="wrapper-about"> 
+								<div class="swiper-about swiperEffect">
+								  <div class="swiper-wrapper">
+									<div class="swiper-slide"> 
+									  <div class="card-image"><img src="assets/img/about-img.png"/>
+										<div class="card-description">
+										  
+										</div>
+									  </div>
+									</div>
+									<div class="swiper-slide">
+									  <div class="card-image"><img src="assets/img/about-img2.png"/>
+										<div class="card-description">
+										  
+										</div>
+									  </div>
+									</div>
+									<div class="swiper-slide"> 
+									  <div class="card-image"><img src="assets/img/about-img2.png"/>
+										<div class="card-description">
+										  
+										</div>
+									  </div>
+									</div>
+									
+								  </div>
+								
+								  <div class="swiper-pagination"></div>
+								</div>
+							  </div>
 
 						</div>
 
@@ -296,7 +325,7 @@
 				
 
 
-					<div class="booknow-section">
+					<!-- <div class="booknow-section">
 
 						<div class="card-book-callback">
 
@@ -308,7 +337,7 @@
 
 						</div>
 
-					</div>
+					</div> -->
 
 
 
@@ -425,7 +454,14 @@
 								</div>
 
 
-					</div>
+					
+					
+					
+							</div>
+
+							<div class="btn-view-more">
+								<a href="#" >View more</a> 
+							</div>
 				    </div>
 
 
@@ -448,7 +484,7 @@
 										
 										<div class="card">
 
-											<img class="card-header-img" src="assets/img/ivf.png"/>
+											<img class="card-header-img" src="assets/img/doctor/doc1.png"/>
 											<a class="card-title">IVF Treatment</a>
 											
 					
@@ -459,7 +495,7 @@
 										
 										<div class="card">
 
-											<img class="card-header-img" src="assets/img/dental (2).png"/>
+											<img class="card-header-img" src="assets/img/doctor/doc2.png"/>
 											<a class="card-title">Dental Clinic</a>
 											
 					
@@ -470,7 +506,7 @@
 										
 										<div class="card">
 
-											<img class="card-header-img" src="assets/img/dermatology.png"/>
+											<img class="card-header-img" src="assets/img/doctor/doc3.png"/>
 											<a class="card-title">Dermatology</a>
 											
 					
@@ -481,7 +517,7 @@
 										
 										<div class="card">
 
-											<img class="card-header-img" src="assets/img/gyno.png"/>
+											<img class="card-header-img" src="assets/img/doctor/doc4.png"/>
 											<a class="card-title">Gynecology</a>
 											
 					
@@ -492,52 +528,26 @@
 										
 										<div class="card">
 
-											<img class="card-header-img" src="assets/img/dietary.png"/>
+											<img class="card-header-img" src="assets/img/doctor/doc5.png"/>
 											<a class="card-title">Dietary</a>
 											
 					
 										</div>
 
 									</div>
-									<div class="swiper-slide">
-										
-										<div class="card">
-
-											<img class="card-header-img" src="assets/img/general.png"/>
-											<a class="card-title">Dietary</a>
-											
-					
-										</div>
-
-									</div>
-									<div class="swiper-slide">
-										
-										<div class="card">
-
-											<img class="card-header-img" src="assets/img/dermatology.png"/>
-											<a class="card-title">Dietary</a>
-											
-					
-										</div>
-
-									</div>
-									<div class="swiper-slide">
-										
-										<div class="card">
-
-											<img class="card-header-img" src="assets/img/gyno.png"/>
-											<a class="card-title">Dietary</a>
-											
-					
-										</div>
-
-									</div>
+									
+									
+									
 									<!-- If we need pagination -->
 									<div class="swiper-pagination"></div>
 								
 									
 								
 								
+								</div>
+
+								<div class="btn-view-more">
+									<a href="#" >View more</a> 
 								</div>
 
 
@@ -768,6 +778,26 @@
 			},
 			});
 		</script>
+
+		<script>
+			
+			var swiperEffect = new Swiper(".swiperEffect", {
+			loop: true,
+			effect: "cards",
+			grabCursor: true,
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev"
+			},
+			pagination: {
+				el: ".swiper-pagination",
+			},
+			});
+		</script>
+
+
+
+
 
 		<!-- Core JS -->
 		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
