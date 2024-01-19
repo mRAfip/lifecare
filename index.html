@@ -535,6 +535,43 @@
 										</div>
 
 									</div>
+
+
+									<div class="swiper-slide">
+										
+										<div class="card">
+
+											<img class="card-header-img" src="assets/img/doctor/doc1.png"/>
+											<a class="card-title">IVF Treatment</a>
+											
+					
+										</div>
+
+									</div>
+									<div class="swiper-slide">
+										
+										<div class="card">
+
+											<img class="card-header-img" src="assets/img/doctor/doc2.png"/>
+											<a class="card-title">Dental Clinic</a>
+											
+					
+										</div>
+
+									</div>
+									<div class="swiper-slide">
+										
+										<div class="card">
+
+											<img class="card-header-img" src="assets/img/doctor/doc3.png"/>
+											<a class="card-title">Dermatology</a>
+											
+					
+										</div>
+
+									</div>
+									
+									
 									
 									
 									
@@ -739,14 +776,18 @@
 				320: {
 				slidesPerView: 2,
 				slidesPerGroup: 2, // Show 1 preview dot on mobile
+				freeMode: true,
+				
 				},
 				768: {
 				slidesPerView: 3,
 				slidesPerGroup: 3, // Show 2 preview dots on tablets
+				freeMode: true,
 				},
 				992: {
 				slidesPerView: 4,
 				slidesPerGroup: 4, // Show 3 preview dots on larger screens
+				freeMode: true,
 				},
 			},
       		spaceBetween: 10,
@@ -755,6 +796,7 @@
 				autoplay: {
 				delay: 3000, // Delay between slides in milliseconds (3 seconds here)
 				disableOnInteraction: false, // Keep autoplaying even after user interaction
+				loopFillGroupWithBlank: true,
 			},
 
 			
