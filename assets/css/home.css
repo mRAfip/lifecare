@@ -444,6 +444,41 @@
 /* extra added slider in about */
 
 
+.contact_section{
+
+
+    display: flex;
+    width: 100%;
+    padding: 2% 10%;
+    background-color: var(--tt-main-color);
+    color: #fff !important;
+   
+
+}
+
+.bg-gold{
+
+
+    color: #fff !important;
+  
+    
+}
+
+.contact_map_div{
+
+    width: 100%;
+    height: 650px;
+    padding-top: 10%;
+}
+
+.map_frame{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 
 
 
@@ -991,6 +1026,26 @@
     margin-top: 5%;
     border-radius: 10px;
     text-align: center;
+}
+
+.contact_section{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2% 10%;
+    background-color: var(--tt-main-color);
+    color: #fff !important;
+   
+
+}
+
+.contact_map_div{
+
+    width: 100%;
+    height: 450px;
+    padding-top: 10%;
 }
 
 
