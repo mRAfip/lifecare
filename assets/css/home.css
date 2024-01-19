@@ -978,6 +978,22 @@
 
     background-color: var(--tt-main-color) !important;
 }
+
+
+
+
+.btn-view-more{
+
+    width: 100%;
+    padding: 2% 5%;
+    background-color: #C5983C;
+    color: #000;
+    margin-top: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
     
 }
 
