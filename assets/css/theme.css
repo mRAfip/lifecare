@@ -7485,7 +7485,7 @@ body:not(.is-mobile) .tt-btn:hover .tt-btn-line {
 	line-height: 1;
 	font-size: 15px;
 	font-weight: 600;
-	color: #eaeaea;
+	color: #000;
 	transition: opacity 0.2s;
 }
 body:not(.tt-magic-cursor) .social-buttons > ul:hover > li a {
