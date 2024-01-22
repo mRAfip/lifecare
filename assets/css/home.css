@@ -492,7 +492,7 @@
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
 
     
 
@@ -977,7 +977,7 @@
         display: flex;
         justify-content: space-between;
         padding-left:  6% !important;  
-        background-image: url("../img/hero-back-mobile.png");
+        background-image: url("../img/head-2.png");
     }
     
     .tt-main-menu-list > li > a,
