@@ -1,0 +1,242 @@
+
+@import url('https://fonts.cdnfonts.com/css/marcellus');
+:root {
+	--tt-main-bg-color: #fcf3df;   /*  background color. */
+    --tt-main-bg-gold: #fcf3df; /*  background gold. */
+	--tt-main-color: #C5983C; /*  main color. */
+}
+
+.support-team-marketing{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: black;
+
+}
+
+.image-container {
+    flex: 1 0 50%;
+    background-image: url('../img/about-img.png');
+    background-size: cover;
+    background-position: center;
+
+    
+  }
+
+  .about-img{
+   
+    object-fit: cover;
+    width: 100%;
+    border-radius: 100px;
+    height: 80%;
+    
+    
+    
+
+  }
+
+  .support-team-marketing-content {
+    flex: 1 0 50%;
+    padding: 10%  5%;
+  
+    
+  }
+
+
+  .support-head{
+
+    font-size: calc(8px + 4vw);
+   
+  }
+
+  .support-para{
+
+    width: 80%;
+
+  }
+
+  .support-link {
+
+    text-decoration: underline;
+  }
+
+  .pad{
+
+    margin-left: 5%;
+  }
+
+
+
+/* call back  */
+
+
+.main-high-light-about{
+
+    text-align: center;
+    color: #000;
+    padding: 7% 20%;
+    
+    color: #C5983C;
+    
+    
+    
+
+}
+
+.main-high-light-head{
+
+    font-size: calc(2px + 2vw) !important;
+    font-family: 'Marcellus'!important;
+}
+.hightlight{
+
+
+    background-color: var(--tt-main-bg-gold);
+}
+
+.hightlight-items{
+
+    display: flex;
+    padding-top: 5%;
+    
+
+}
+
+.item{
+
+    justify-content: center;
+    align-content: center;
+    color: #000;
+    padding: 0 5%;
+   
+
+
+}
+.item-img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px){
+
+
+
+    .support-team-marketing{
+
+        flex-direction: column;
+    
+    }
+    
+    .image-container {
+        flex: 1 0 50%;
+        background-image: url('../img/about-img.png');
+        background-size: cover;
+        background-position: center;
+    
+        
+      }
+    
+      .about-img{
+       
+        object-fit: cover;
+        width: 100%;
+        border-radius: 100px;
+        height: 80%;
+        
+        
+        
+    
+      }
+    
+      .support-team-marketing-content {
+        flex: 1 0 50%;
+        padding: 10%  5%;
+      
+        
+      }
+    
+    
+      .support-head{
+    
+        font-size: calc(8px + 4vw);
+       
+      }
+    
+      .support-para{
+    
+        width: 80%;
+    
+      }
+    
+      .support-link {
+    
+        text-decoration: underline;
+      }
+    
+      .pad{
+    
+        margin-left: 5%;
+      }
+    
+    
+    
+    /* highlight part  */
+    
+    
+    .main-high-light-about{
+    
+        text-align: center;
+        color: #000;
+        padding: 7% 5%;
+        
+        color: #C5983C;
+        
+        
+        
+    
+    }
+    
+    .main-high-light-head{
+    
+        font-size: calc(4px + 4.25vw) !important;
+        font-family: 'Marcellus'!important;
+    }
+    .hightlight{
+    
+    
+        background-color: var(--tt-main-bg-gold);
+    }
+    
+    .hightlight-items{
+    
+        display: flex;
+        padding-top: 5%;
+        flex-direction: column;
+        
+    
+    }
+    
+    .item{
+    
+        justify-content: center;
+        align-content: center;
+        color: #000;
+        padding: 0 5%;
+       
+    
+    
+    }
+    .item-img{
+    
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+
+
+}

@@ -125,14 +125,14 @@
     display: flex;
     justify-content: space-between;
     padding-left: 15% !important;  
-    background-image: url("../img/hero-back.jpg");
+    background-image: url("../img/head-2.png");
     background-size: cover;
 }
 
 .tt-main-menu-list > li > a,
 .tt-main-menu-list > li > .tt-submenu-trigger > a {
 
-    color: #fff !important;
+  
    
 }
 
@@ -601,6 +601,189 @@
           transform: translate3d(85px,0,0);
         }
       }
+
+  
+
+      /* about section */
+    
+
+.about-section{
+
+  display: flex;
+  color: #000 !important;
+  padding: 2% 10%;
+  padding-top: 2%;
+  gap: 10%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-text-content{
+
+  width: 100%;
+  padding-top: 8%;
+  
+}
+.about-title{
+
+  font-size: calc(3px + 3vw) !important;
+  font-weight: 700;
+
+}
+
+.about-para{
+
+  
+}
+.about-img-content{
+
+  padding-top: 8%;
+ 
+}
+
+.about-img{
+
+
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  object-fit: cover;
+
+  
+}
+
+
+/* doctor list */
+
+
+
+.doctor_list_section{
+
+
+  width: 100%;
+  padding: 6% 10%;
+  background-color: #F0E3CB;
+  color: #000;
+
+}
+
+.services-para{
+
+  margin-top: -2%;
+}
+
+.card{
+
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  background-color: #fff;
+  padding: 1% 1%;
+  
+  text-align: center;
+
+}
+
+.card-header-img{
+
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 5%;
+
+}
+
+.card-title{
+
+  color: #000;
+  text-align: center;
+
+  padding: 3% 10%;
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 5%;
+ 
+  
+}
+
+.btn-view-more{
+
+  width: fit-content;
+  padding: 1% 5%;
+  background-color: #C5983C;
+  color: #000;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+
+/* newsletter */
+
+
+#appointment-form{
+
+  color: #000;
+}
+
+
+.doctor_list_section_2{
+
+
+  width: 100%;
+  padding: 6% 10%;
+  background-color: #e9e9e9;
+  color: #000;
+
+}
+
+#tt-footer{
+
+  background-color: var(--tt-main-color) !important;
+}
+
+
+
+
+
+/* extra added slider in about */
+
+
+.contact_section{
+
+
+  display: flex;
+  width: 100%;
+  padding: 2% 10%;
+  background-color: var(--tt-main-color);
+  color: #fff !important;
+ 
+
+}
+
+.bg-gold{
+
+
+  color: #fff !important;
+
+  
+}
+
+.contact_map_div{
+
+  width: 100%;
+  height: 650px;
+  padding-top: 10%;
+}
+
+.map_frame{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
     
     
     
@@ -919,6 +1102,8 @@
 
 .about-para{
 
+
+  font-size: calc(2px + 3.5vw) !important;
     
 }
 .about-img-content{
@@ -1034,7 +1219,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 2% 10%;
+    padding: 2% 0%;
     background-color: var(--tt-main-color);
     color: #fff !important;
    

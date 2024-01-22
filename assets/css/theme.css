@@ -8092,7 +8092,7 @@ input[type=range] {
 }
 .tt-form-filled .tt-form-control {
 	background-color: rgb(136 136 136 / 15%);
-	color: #FFF;
+	color: #000;
 	border: none;
 }
 .tt-form-filled .tt-form-control:focus {
