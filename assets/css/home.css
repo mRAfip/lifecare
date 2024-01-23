@@ -228,6 +228,40 @@
 
 
 
+
+  
+.marque_text_top{
+
+  background-color: var(--primary-color);
+margin-bottom: 20px;
+}
+
+.tt-scrolling-text-top {
+display: flex;
+position: relative;
+pointer-events: none;
+}
+.tt-scrolling-text-inner-top {
+  padding-top:1vw;
+  padding-bottom:1vw;
+font-size: calc(1.75px + 2vw);
+line-height: 1;
+font-weight: bold;
+font-weight: 600;
+color: #000;
+white-space: nowrap;
+animation-name: tt_scrolling_text; 
+animation-timing-function: linear; 
+animation-iteration-count: infinite; 
+animation-play-state: running;
+/* animation-duration is handled by js. */
+}
+.tt-scrolling-text-inner-top:after {
+content: attr(data-text);
+}
+
+
+
   /* start department section */
 
   /* start department section */
@@ -383,7 +417,7 @@
 .card-header-img{
 
     width: 100%;
-    height: auto;
+    height: 280px !important;
     border-radius: 10px;
     margin-bottom: 5%;
 
@@ -1078,6 +1112,38 @@
     100% { 
       transform: translate3d(85px,0,0);
     }
+  }
+
+
+
+  .marque_text_top{
+
+    background-color: var(--primary-color);
+  margin-bottom: 20px;
+  }
+  
+  .tt-scrolling-text-top {
+  display: flex;
+  position: relative;
+  pointer-events: none;
+  }
+  .tt-scrolling-text-inner-top {
+    padding-top:1vw;
+    padding-bottom:1vw;
+  font-size: calc(2.75px + 3vw);
+  line-height: 1;
+  font-weight: bold;
+  font-weight: 600;
+  color: #000;
+  white-space: nowrap;
+  animation-name: tt_scrolling_text; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+  animation-play-state: running;
+  /* animation-duration is handled by js. */
+  }
+  .tt-scrolling-text-inner-top:after {
+  content: attr(data-text);
   }
 
      
